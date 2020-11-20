@@ -1,0 +1,2 @@
+# LuckStrike
+Terminal guessing game.
