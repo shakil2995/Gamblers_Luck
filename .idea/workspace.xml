@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="LuckStrike:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="100b0b21-d491-48e3-866e-58ededda095f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,9 +35,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JAR Application.LuckStrike.jar">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="LuckStrike" />
@@ -40,8 +48,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LuckStrike.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/LuckStrike_jar/LuckStrike.jar" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JAR Application.LuckStrike.jar" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -60,37 +73,37 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="281" key="FileChooserDialogImpl" timestamp="1591614795373">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1591614795373" />
-    <state width="1877" height="373" key="GridCell.Tab.0.bottom" timestamp="1597423653869">
+    <state x="690" y="307" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1605825342355">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="373" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1597423653869" />
-    <state width="1877" height="386" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1591621095305" />
-    <state width="1877" height="373" key="GridCell.Tab.0.center" timestamp="1597423653868">
+    <state x="690" y="307" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1605825342355" />
+    <state x="740" y="265" key="FileChooserDialogImpl" timestamp="1605825250970">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="373" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1597423653868" />
-    <state width="1877" height="386" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1591621095305" />
-    <state width="1877" height="373" key="GridCell.Tab.0.left" timestamp="1597423653868">
+    <state x="740" y="265" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1605825250970" />
+    <state width="1877" height="373" key="GridCell.Tab.0.bottom" timestamp="1605825575063">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="373" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1597423653868" />
-    <state width="1877" height="386" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1591621095305" />
-    <state width="1877" height="373" key="GridCell.Tab.0.right" timestamp="1597423653868">
+    <state width="1877" height="373" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1605825575063" />
+    <state width="1877" height="373" key="GridCell.Tab.0.center" timestamp="1605825575063">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="373" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1597423653868" />
-    <state width="1877" height="386" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1591621095305" />
-    <state x="342" y="160" key="new project wizard" timestamp="1594828616712">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="373" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1605825575063" />
+    <state width="1877" height="373" key="GridCell.Tab.0.left" timestamp="1605825575063">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="342" y="160" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1594828616712" />
-    <state x="616" y="250" key="run.anything.popup" timestamp="1591619301501">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="373" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1605825575063" />
+    <state width="1877" height="373" key="GridCell.Tab.0.right" timestamp="1605825575063">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1591619301501" />
+    <state width="1877" height="373" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1605825575063" />
+    <state x="440" y="99" key="SettingsEditor" timestamp="1605825353087">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="440" y="99" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1605825353087" />
+    <state x="343" y="122" key="new project wizard" timestamp="1605825213032">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="343" y="122" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1605825213032" />
   </component>
 </project>
