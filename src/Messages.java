@@ -37,7 +37,7 @@ public class Messages extends GameCore{
     }
     public void endNote(){
 
-        System.out.print("\n        Do you want to play again ? (y/n)");
+        System.out.print("\n        Do you want to play again ? (y/n) :");
         boolean x=getInput();
         if (x){
             selectLevel();

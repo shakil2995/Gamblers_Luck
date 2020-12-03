@@ -1,11 +1,11 @@
 import java.util.Random;
 import java.util.Scanner;
 public class GameCore {
-    public void score(int z,double token){
-        double percentile=(token/z)*100;
-        System.out.println("         *****Guess accuracy "+percentile+"%*****\n");
+    public void score(int z,int token){
+        int percentile=(token/z)*100;
+        System.out.println("         ***** Your Score = "+percentile+" *****\n");
         if (percentile==100.0)
-            alien();
+            gamblersDoom();
     }
     public void engineMain(int limit,int token){
         Random rand=new Random();
@@ -18,10 +18,17 @@ public class GameCore {
            int random=1+rand.nextInt(limit);
           // System.out.println("Lucky number is "+random);
            if (x==random){
-               System.out.println("                 ************************************\n" +
-                       "            ************You Have Just Hit THE JACKPOT***********\n" +
-                       "                 ************************************\n");
-               score(z,token);
+               if (limit == 100)
+               {wonGamblersDoom();
+               break;
+               }
+               else {
+
+                   System.out.println("                 ************************************\n" +
+                           "            ************You Have Just Hit THE JACKPOT***********\n" +
+                           "                 ************************************\n");
+                   score(z, token);
+               }
                break;
            }
            else {
@@ -52,11 +59,14 @@ public class GameCore {
                 break;
         }
     }
-   public void alien(){
-       System.out.println("     Hidden level ***GAMBLER'S DOOM*** unlocked !!!  \n     Do you want too play ? (y/n)" +
-               "\n     Do you want too play ? (y/n)");
+   public void gamblersDoom(){
+       System.out.print("     Hidden level ***GAMBLER'S DOOM*** unlocked !!! \n             Do you want too play ? (y/n) :");
        boolean x=getInput();
        if (x) engineMain(100, 10);
+    }
+    public void wonGamblersDoom(){
+        System.out.println("     ## Won Gamblers Doom ##\n     Title ' ## LUCKIEST GAMBLER EVER ##'   " +
+                "\n     ### Show This Message To Redeem Your Free Drinks ###");
     }
     public boolean getInput(){
         Scanner input=new Scanner(System.in);
