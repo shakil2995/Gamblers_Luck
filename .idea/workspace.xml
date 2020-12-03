@@ -7,8 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="100b0b21-d491-48e3-866e-58ededda095f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LuckStrike/GameCore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LuckStrike/GameCore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LuckStrike/Messages.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LuckStrike/Messages.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameCore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Messages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Messages.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +42,9 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="kite.configurable" />
   </component>
-  <component name="RunManager" selected="JAR Application.LuckStrike.jar">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="LuckStrike" />
@@ -54,8 +58,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JAR Application.LuckStrike.jar" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JAR Application.LuckStrike.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -81,26 +85,26 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="265" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1605825250970" />
-    <state width="1877" height="373" key="GridCell.Tab.0.bottom" timestamp="1605825575063">
+    <state width="1877" height="373" key="GridCell.Tab.0.bottom" timestamp="1607027301519">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="373" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1605825575063" />
-    <state width="1877" height="373" key="GridCell.Tab.0.center" timestamp="1605825575063">
+    <state width="1877" height="373" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1607027301519" />
+    <state width="1877" height="373" key="GridCell.Tab.0.center" timestamp="1607027301519">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="373" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1605825575063" />
-    <state width="1877" height="373" key="GridCell.Tab.0.left" timestamp="1605825575063">
+    <state width="1877" height="373" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1607027301519" />
+    <state width="1877" height="373" key="GridCell.Tab.0.left" timestamp="1607027301519">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="373" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1605825575063" />
-    <state width="1877" height="373" key="GridCell.Tab.0.right" timestamp="1605825575063">
+    <state width="1877" height="373" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1607027301519" />
+    <state width="1877" height="373" key="GridCell.Tab.0.right" timestamp="1607027301519">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="373" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1605825575063" />
-    <state x="440" y="99" key="SettingsEditor" timestamp="1605825353087">
+    <state width="1877" height="373" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1607027301519" />
+    <state x="440" y="99" key="SettingsEditor" timestamp="1607026578866">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="440" y="99" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1605825353087" />
+    <state x="440" y="99" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1607026578866" />
     <state x="343" y="122" key="new project wizard" timestamp="1605825213032">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

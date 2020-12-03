@@ -11,6 +11,7 @@ public class GameCore {
         Random rand=new Random();
         Scanner scan=new Scanner(System.in);
         int z=token;
+        System.out.println("       You Get "+token+" tries");
         while(token!=0) {
            System.out.print("       Guess any number between (1-"+limit+") : ");
            int x=scan.nextInt();
@@ -37,22 +38,22 @@ public class GameCore {
         switch (level){
             case 1:
                 //System.out.println("        case 1");
-                engineMain(1,3);
+                engineMain(10,3);
                 break;
             case 2:
-                engineMain(10,5);
+                engineMain(15,5);
 
                 //System.out.println("        case 2");
                 break;
             case 3:
-                engineMain(15,6);
+                engineMain(25,8);
 
                // System.out.println("        case 3");
                 break;
         }
     }
    public void alien(){
-       System.out.println("     Hidden level ***ALIEN*** unlocked !!!  \n     Do you want too play ? (y/n)");
+       System.out.println("     Hidden level ***GAMBLER'S DOOM*** unlocked !!!  \n     Do you want too play ? (y/n)");
        boolean x=getInput();
        if (x) engineMain(100, 10);
     }
