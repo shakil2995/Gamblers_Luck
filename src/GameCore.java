@@ -38,22 +38,23 @@ public class GameCore {
         switch (level){
             case 1:
                 //System.out.println("        case 1");
-                engineMain(10,3);
+                engineMain(4,4);
                 break;
             case 2:
-                engineMain(15,5);
+                engineMain(8,4);
 
                 //System.out.println("        case 2");
                 break;
             case 3:
-                engineMain(25,8);
+                engineMain(16,5);
 
                // System.out.println("        case 3");
                 break;
         }
     }
    public void alien(){
-       System.out.println("     Hidden level ***GAMBLER'S DOOM*** unlocked !!!  \n     Do you want too play ? (y/n)");
+       System.out.println("     Hidden level ***GAMBLER'S DOOM*** unlocked !!!  \n     Do you want too play ? (y/n)" +
+               "\n     Do you want too play ? (y/n)");
        boolean x=getInput();
        if (x) engineMain(100, 10);
     }
