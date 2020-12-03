@@ -1,2 +1,2 @@
 # LuckStrike
-Terminal guessing game.
+Java Implementation of my very First game "Gambler's Luck"
