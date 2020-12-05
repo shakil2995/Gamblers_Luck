@@ -1,2 +1,2 @@
-# LuckStrike
-### Java Implementation of my very First game "Gambler's Luck"
+# Gambler's Luck
+### Java Implementation of My Very First Game, "Gambler's Luck"
