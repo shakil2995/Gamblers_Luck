@@ -1,9 +1,9 @@
 import java.util.Random;
 import java.util.Scanner;
 public class GameCore {
-    public void score(int z,int token){
-        int percentile=(token/z)*100;
-        System.out.println("         ***** Your Score = "+percentile+" *****\n");
+    public void score(int z,double token){
+        double  percentile=(token/z)*100;
+        System.out.println("         ***** Your Score = "+(int)percentile+" *****\n token="+token+" z= "+z);
         if (percentile==100.0)
             gamblersDoom();
     }
@@ -33,8 +33,9 @@ public class GameCore {
            }
            else {
                System.out.println("     Missed ! The lucky number was "+random);
+               token--;
            }
-            token--;
+
            if (token==0){
                System.out.println("     Out of chances");
                score(z,token);
@@ -45,15 +46,15 @@ public class GameCore {
         switch (level){
             case 1:
                 //System.out.println("        case 1");
-                engineMain(4,4);
+                engineMain(4,100);
                 break;
             case 2:
-                engineMain(8,4);
+                engineMain(4,4);
 
                 //System.out.println("        case 2");
                 break;
             case 3:
-                engineMain(16,5);
+                engineMain(8,5);
 
                // System.out.println("        case 3");
                 break;
@@ -66,7 +67,7 @@ public class GameCore {
     }
     public void wonGamblersDoom(){
         System.out.println("     ## Won Gamblers Doom ##\n     Title ' ## LUCKIEST GAMBLER EVER ##'   " +
-                "\n     ### Show This Message To Redeem Your Free Drinks ###");
+                "\n     ### Show This Message To Get Your Free Drinks ###");
     }
     public boolean getInput(){
         Scanner input=new Scanner(System.in);
