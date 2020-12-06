@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b8d9cf1-87e0-48fe-ab36-9c55f3e34924" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/LuckStrike_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamblersLuck.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GamblersLuck.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LuckStrike_jar/LuckStrike.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LuckStrike/GameCore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LuckStrike/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LuckStrike/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LuckStrike/Messages.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GameCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameCore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
