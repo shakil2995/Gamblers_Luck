@@ -1,6 +1,8 @@
+package GameCores;
+
 import java.util.Random;
 import java.util.Scanner;
-public class GameCore {
+public class GamblersLuck {
     public void score(int z,double token){
         double  percentile=(token/z)*100;
         System.out.println("         ***** Your Score = "+(int)percentile+" *****\n");

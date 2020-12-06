@@ -1,5 +1,9 @@
+package HelperClasses;
+
+import GameCores.GamblersLuck;
+
 import java.util.Scanner;
-public class Messages extends GameCore{
+public class Messages extends GamblersLuck {
     //**********************IO*************************
     public boolean getInput(){
         Scanner input=new Scanner(System.in);
@@ -13,13 +17,13 @@ public class Messages extends GameCore{
         System.out.println("             ********************************\n\n");
         callHelp();
     }
-    public void instruction(){
-        System.out.println("\n      Instruction:");
-        System.out.println("        1.keep inputting numbers until You hit THE JACKPOT.");
-        System.out.println("        2.Level >> 1  Difficulty >> Easy");
-        System.out.println("        3.Level >> 2  Difficulty >> Medium");
-        System.out.println("        4.Level >> 3  Difficulty >> Hard");
-        System.out.println("        4.Level >>  ?? Difficulty >>  ??");
+    public void callHelp(){
+        System.out.print("      Do you want to read the manual ? (y/n) : ");
+        boolean inputCheck = getInput();
+        if (inputCheck) instruction();
+        //  else System.out.println("False");
+        selectLevel();
+
     }
     public void selectLevel(){
         System.out.print("      Select a level from 1 , 2 or 3 :");
@@ -35,6 +39,14 @@ public class Messages extends GameCore{
          selectLevel();
          }
     }
+    public void instruction(){
+        System.out.println("\n      Instruction:");
+        System.out.println("        1.keep inputting numbers until You hit THE JACKPOT.");
+        System.out.println("        2.Level >> 1  Difficulty >> Easy");
+        System.out.println("        3.Level >> 2  Difficulty >> Medium");
+        System.out.println("        4.Level >> 3  Difficulty >> Hard");
+        System.out.println("        4.Level >>  ?? Difficulty >>  ??");
+    }
     public void endNote(){
 
         System.out.print("\n        Do you want to play again ? (y/n) :");
@@ -43,12 +55,5 @@ public class Messages extends GameCore{
             selectLevel();
         }
     }
-    public void callHelp(){
-            System.out.print("      Do you want to read the manual ? (y/n) : ");
-            boolean inputCheck = getInput();
-            if (inputCheck) instruction();
-          //  else System.out.println("False");
-        selectLevel();
 
-    }
 }
