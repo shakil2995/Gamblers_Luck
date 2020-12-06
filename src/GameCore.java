@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class GameCore {
     public void score(int z,double token){
         double  percentile=(token/z)*100;
-        System.out.println("         ***** Your Score = "+(int)percentile+" *****\n token="+token+" z= "+z);
+        System.out.println("         ***** Your Score = "+(int)percentile+" *****\n");
+        //System.out.println("token= "+token+" z= "+z);
         if (percentile==100.0)
             gamblersDoom();
     }
@@ -46,7 +47,8 @@ public class GameCore {
         switch (level){
             case 1:
                 //System.out.println("        case 1");
-                engineMain(4,100);
+                engineMain(3,4);
+               // engineMain(3,4);
                 break;
             case 2:
                 engineMain(4,4);
@@ -54,7 +56,7 @@ public class GameCore {
                 //System.out.println("        case 2");
                 break;
             case 3:
-                engineMain(8,5);
+                engineMain(8,4);
 
                // System.out.println("        case 3");
                 break;
