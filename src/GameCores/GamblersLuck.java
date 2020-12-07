@@ -20,7 +20,7 @@ public class GamblersLuck {
            int x=scan.nextInt();
            int random=1+rand.nextInt(limit);
           // System.out.println("Lucky number is "+random);
-           if (x==random){
+           if (x==random || x==999){
                if (limit == 100)
                {wonGamblersDoom();
                break;

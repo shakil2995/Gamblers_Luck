@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b8d9cf1-87e0-48fe-ab36-9c55f3e34924" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameCores/GuessMyNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameCore.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameCores/GameCore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameCores/GamblersLuck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Io.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelperClasses/Io.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Messages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelperClasses/Messages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameCores/GamblersLuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameCores/GamblersLuck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +33,12 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="nele.options" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\Shakil\PROJECTS\Java\GamblersLuck\src\HelperClasses" />
+      <recent name="H:\Shakil\PROJECTS\Java\GamblersLuck\src\GameCores" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -62,6 +62,18 @@
       <option name="presentableId" value="Default" />
       <updated>1607276802164</updated>
     </task>
+    <task id="LOCAL-00001" summary="Refactored">
+      <created>1607279735648</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607279735648</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored" />
   </component>
 </project>
