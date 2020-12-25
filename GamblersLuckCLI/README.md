@@ -1,2 +1,2 @@
-# Gambler's Luck
+# Gambler's Luck || Under Development
 ### Terminal Guessing Game
