@@ -1,2 +1,2 @@
 # Gambler's Luck || Under Development
-### Guessing Game
+### GUI implementation of "Gambler's Luck CLI"
